@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <title>Início-Netflix</title>
+</head>
+<body>
+    <header class="flex-container">
+        <div class="logo-netflix">
+            <img src="/img/logo.png" alt="logo da netflix">
+        </div>
+        
+        <div class="menu-inicial">
+            <nav>
+                <button><a>Início</a></button>
+                <button><a>Séries</a></button>
+                <button><a>Filmes</a></button>
+                <button><a>Bombando</a></button>
+                <button><a>Minha lista</a></button>
+            </nav>
+        </div>
+        
+
+        <div id="busca">
+            <input type="text" id="txtBusca" placeholder="Títulos, gente e gêneros">
+            <img src="/img/busca.png" id="btnBusca" alt="Buscar">
+        </div>
+
+        <div class="opcao-infantil">
+            <button><a href="">Infantil</a></button>
+        </div>
+        
+        <div class="perfis">
+            <ul class="menu-perfis">
+                <li><img src="/img/avatar1.png">
+                    <ul>
+                        <li><img src="/img/avatar2.png">Avatar</li><br>
+                        <li><img src="/img/avatar-infantil.png"></li><br>
+                        <li><a>Gerenciar perfis</a></li>
+                        <li><a>Central de ajuda</a></li>
+                        <li><a>Sair da Netflix</a></li> 
+                    </ul>    
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="trailer">
+            <iframe width="100%" height="550" src="https://www.youtube.com/embed/JkUWmxhtU4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="logo-serie-principal">
+            <img src="/img/logodark.png" alt="logo de Dark">
+        </div>
+
+        <div class="sinopse">
+            <p>Quatro famílias iniciam uma desesperada busca por<br> 
+            respostas quando uma criança desaparece e um complexo<br> 
+            mistério envolvendo três gerações começa a se revelar.</p>
+        </div>
+
+        <div class="actions-serie-principal">
+            <button><img src="/img/assistir.png"><a class="info-assistir">Assistir</a></button>
+            <button><img class="icon-info" src="/img/information.png"><a class="info-text">Mais informações</a></on>
+        </div>
+
+        <div class="idade">
+            <button><img class="retry-png" src="/img/retry.png"></button>
+            <button><img class="classificacao" src="/img/classificacao-16-anos-logo-1.png"></button>
+        </div>
+    </main>
+
+    <section class="continuar-assistindo">
+        <div class="contain">
+
+            <div class="slider">
+                <h3>Continuar assistindo como MaluDuda</h3>
+                <span onmouseover="scrollEsquerda()" onmouseout="clearScroll()" class="handle handlePrev active">
+                  <i class="fa fa-caret-left" aria-hidden="true"></i>
+                </span>
+          
+                <div id="scroller" class="row">
+                  <div class="row__inner">
+          
+                    <div class="gui-card">
+                      <div class="gui-card__media">
+                        <img class="gui-card__img" src="/img/sisifo.jpg" alt=""  />
+                      </div>
+                      <div class="gui-card__details">
+                        <div class="gui-card__title">
+                          O Mito de Sísifo
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="gui-card">
+                      <div class="gui-card__media">
+                        <img class="gui-card__img" src="/img/outravida.jpg"  />
+                      </div>
+                      <div class="gui-card__details">
+                        <div class="gui-card__title">
+                          Outra vida
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="gui-card">
+                      <div class="gui-card__media">
+                        <img class="gui-card__img" src="/img/pontocego.jpg" alt=""  />
+                      </div>
+                      <div class="gui-card__details">
+                        <div class="gui-card__title">
+                          Ponto Cego
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="gui-card">
+                      <div class="gui-card__media">
+                        <img class="gui-card__img" src="/img/round6.jpg" alt=""  />
+                      </div>
+                      <div class="gui-card__details">
+                        <div class="gui-card__title">
+                          Round 6
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="gui-card">
+                      <div class="gui-card__media">
+                        <img class="gui-card__img" src="/img/segredotemplo.jpg" alt=""  />
+                      </div>
+                      <div class="gui-card__details">
+                        <div class="gui-card__title">
+                          O Segredo do Templo
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+          
+                </div>
+                <span onmouseover="scrollDireita()" onmouseout="clearScroll()"  class="handle handleNext active">
+                  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                </span>
+              </div>
+          
+          </div>
+    </section>
+
+</body>
+</html>
